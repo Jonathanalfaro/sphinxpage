@@ -145,7 +145,9 @@ latex_documents = [
      u'jonathan alfaro', 'manual'),
 ]
 
-
+source_parsers = {
+   '.md': 'recommonmark.parser.CommonMarkParser',
+}
 # -- Options for manual page output ---------------------------------------
 
 # One entry per manual page. List of tuples
